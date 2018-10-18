@@ -1,0 +1,79 @@
+html, body {
+    background-color: #9DBEBB;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding: 2px;
+    margin: 2px;
+}
+
+/*I have added my personalised logo at the bottom left side */
+ 
+.logo {
+   background-position: bottom left;
+   margin-bottom: 40px;
+}
+
+.header {
+    height: 120px;
+    padding: 0px;
+    margin: 0px;
+   background-color: #77ACA2;
+    
+}
+    
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    width: 60px;
+    
+    
+}
+
+li:hover {
+    color: grey;
+    
+
+    
+}
+
+/*li { */
+/*    margin: 2px;*/
+/*    padding-left: 4px;*/
+    
+/*}*/
+
+.nav { 
+    background-color: #031926;
+    font-weight: bolder;
+    color: #9DBEBB;
+    padding: 0px;
+   
+}
+
+.aboutme {
+    text-align: center;
+    border-style: double;
+    border-width: 1px;
+    border-color: #1e3649;
+    padding: 20px 40px 20px 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #468189;
+    
+}
+    
+.p {
+    padding: 10px 10px 10px 10px;
+    font-weight: 500;
+    
+}    
+
+.container {
+    display: inline-block;
+    max-height: 160px;
+    max-width: 160px;
+}
